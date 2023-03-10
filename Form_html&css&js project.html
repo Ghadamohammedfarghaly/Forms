@@ -1,0 +1,180 @@
+<html>
+
+<head>
+     <title>Sign Up form</title>
+	 
+	 <!-- css codes page style-->
+	 <style>
+	 body{
+	 background-color:rgb(56,34,67);
+	
+	 }
+	 
+	 h1{
+	 
+	 font-style:oblique;
+	 text-align:center;
+	 color:white;
+	 }
+	 
+	 table{
+	 
+	 background-color:orange;
+	 border-collapse:collapse;
+	 height:500px;
+	 width:400px;
+	 text-align:center;
+	 border:3px solid white;
+	 color:white;
+	 }
+	 
+	 #h1,#h2{
+	 background-color:green;
+	 }
+	 
+	 .h1:hover{
+	 background-color:blue;
+	 
+	 }
+	 
+	 .h2:hover{
+	 background-color:red;
+
+	 }
+	 
+	 h1::selection{
+	 color:red;
+	 }
+	 
+	 #hhh{
+	 margin-right:10px;
+	}
+	
+	#kkk{
+	
+	}
+	
+	#g1{
+	 margin-right:40px;
+	}
+	
+	#g2{
+	 margin-right:10px;
+	}
+	
+	.h1,.h2{
+	margin-right:5px;
+	}
+	
+	 #h1:hover,#h2:hover{
+	 background-color:red;
+	 }
+	 h1:hover{
+	 color:orange;
+	 }
+	 </style>
+</head>
+
+<body>
+
+  <h1> welcome with you in our website</h1>
+   <table  align="center">
+    <tr>   
+	  <th colspan="2" id="h2"> Sign Up</th>
+	</tr>
+	
+	<tr>
+	 <td>First Name</td>
+	 <td><input type="text" placeholder="Enter your first name please....."/></td>
+	 
+	</tr>
+	<tr>
+	  <td>Last Name </td>
+	 <td><input type="text" placeholder="Enter your last name please....."/></td>
+	</tr>
+	
+	<tr>
+	   <td>Sreen Nmae</td>
+	 <td><input type="text" placeholder="Enter your screen name please....."/></td>
+	</tr>
+	
+	<tr>
+	  <td>Date Of Birth</td>
+	 <td> 
+	    <select id="hhh">
+		      <option>May</option>
+			  <option>October</option>
+			  <option>Juine</option>
+			  <option>Jeuly</option>
+			  
+		</select>
+		
+		<select id="kkk">
+		       <option>1</option>
+			   <option>2</option>
+			   <option>3</option>
+			   <option>4</option>
+			   <option>5</option>
+			   <option>6</option>
+			   <option>7</option>
+		</select>
+		
+		<select>
+		   <option>2000</option>
+		    <option>2001</option>
+			 <option>2002</option>
+			  <option>2003</option>
+			   <option>2004</option>
+		</select>
+	 </td>
+	</tr>
+	
+	<tr>
+	 <td>Gender</td>
+	 <td> <label 1 for ="g1">Male</label><input type="radio" id="g1" name="h"/> <label 2 for ="g2">Female</label><input type="radio" id="g2" name="h"/></td>
+	</tr>
+	
+	<tr>
+	 <td>Country</td>
+	 <td>
+	    <input list="country"  placeholder="USA"/>
+		     <datalist id="country">
+			 <option value="Cairo"/>
+			 <option value="Sudia"/>
+			 <option value="USA"/>
+			 
+			 </datalist>
+	 </td>
+	</tr>
+	<tr>
+	 <td> E-mail</td>
+	 <td><input type="email"placeholder="Enter your email please....."/> </td>
+	</tr>
+	<tr>
+	 <td> Phone</td>
+	 <td><input type="text" placeholder="Enter your phone please....."/></td>
+	</tr>
+	<tr>
+	 <td> Password </td>
+	 <td><input type="password"/></td>
+	</tr>
+    
+	<tr>
+	   <td> Confirm Password </td>
+	 <td><input type="password"/></td>
+	 </tr>
+	 
+	 <tr>
+	  <td>License</td>
+	  <td><input type="checkbox" id="g3"> <label 3 for="g3">I agree the term's of Use</label></td>
+	 </tr>
+	 
+	 <tr id="h1" align="right" >
+	  <form>  <td colspan="2"> <input type="Submit" style="color:red;" class="h1"style="margin:6px; position:absolute;"/> <input type="button" value="Cancel" style="color:blue;" class="h2"/></form></td>
+	 </tr>
+	 
+
+   </table>
+</body>
+
+</html>
